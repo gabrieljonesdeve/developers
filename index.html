@@ -9,7 +9,6 @@
 <body>
     <header>
         <h1>Benvenuto nel mio Sito Web</h1>
-        <div class="circle" onclick="toggleSidebar(event)"></div>
     </header>
     <nav>
         <ul>
@@ -27,15 +26,6 @@
     <footer>
         <p>&copy; <span id="currentYear"></span> Il mio Sito Web</p>
     </footer>
-
-    <div class="sidebar" id="sidebar">
-        <div class="sidebar-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-        </div>
-    </div>
-
     <script>
         document.getElementById("currentYear").innerText = new Date().getFullYear();
 
